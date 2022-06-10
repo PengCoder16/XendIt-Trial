@@ -1,0 +1,10 @@
+{
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "baseUrl": "https://api.xendit.co",
+  "api": {
+    "basicAuth": "eG5kX2RldmVsb3BtZW50X003SEoyVlJMRGpKVmtLUk82WmdQUHF3SUhMVUhVQWU4MHpZTzdIMlZBdk4zR3E2UjY3T1JENEFyRzU0YVo6"
+  } ,
+  "defaultCommandTimeout": 10000 ,
+  "execTimeout": 100000
+}

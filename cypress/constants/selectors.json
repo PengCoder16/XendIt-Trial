@@ -1,0 +1,20 @@
+{
+    "Email": "//input[contains(@placeholder, \"Your Email\")]" ,
+    "Password": "//input[contains(@placeholder, \"Enter Your Password\")]" ,
+    "Login": "//button[contains(@type, \"submit\")]" ,
+    "Settings": "//span[text()='Settings']" ,
+    "IP_whitelist_Link":"//p[text()='IP whitelists']" ,
+    "IP_Whitelist_Tab":"//span[text()='IP Whitelists']" ,
+    "Add_IP_Address_CIDR": "//*[@id=\"open-add-ip-modal\"]" ,
+    "IP_Inputfield": "//div[contains(@class, 'editor-scrollable')]" ,
+    "Add_IP": "//button[text()='Add']" ,
+    "Okay": "//button[text()='Okay']" ,
+    "IP": "//td[text()='120.29.68.169']" ,
+    "IP_All_Radio_Button": "//tr/th[text()='IP address / Range']//parent::tr//child::input" ,
+    "Delete": "//button[@class=\"btn btn-destructive btn-md\"]" ,
+    "Remove": "//button[text()='Remove']"
+
+
+   
+
+}
