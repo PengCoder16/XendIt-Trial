@@ -50,6 +50,7 @@ Then("I expect response to have the following values", async function (table) {
   const { body, method, endpoint, basicAuth, parallelRunCount } = context;
   const tableHash = table.rowsHash();
 
+
   if (parallelRunCount > 1) {
     cy.wrap(Promise.all([...Array(parallelRunCount).keys()].map((c) => {
       return fetch(`https://api.xendit.co${endpoint}`, {
